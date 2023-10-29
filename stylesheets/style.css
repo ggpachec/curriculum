@@ -10,12 +10,12 @@ body{
 
       /* Filas y columnas */
       grid-template: 
-            "a a a" 20px
-            "b c c" 50px
-            "b d d" 50px 
-            "b e e" 80px 
-            "b f f" 50px 
-	    "g g g" 80px / 1fr 1fr 1fr;
+            "a a a" 
+            "b c c" 
+            "b d d"  
+            "b e e"  
+            "b f f"  
+	    "g g g" / 1fr 1fr 1fr;
 }
 header{
 	grid-area: a;
