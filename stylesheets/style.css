@@ -16,7 +16,7 @@ body{
             "b e e" 
             "b e e" 
             "b f f"  
-	    "g g g" / 1fr 1fr 1fr;
+	    "g h h" / 1fr 1fr 1fr;
 }
 header{
 	grid-area: a;
@@ -38,8 +38,11 @@ nav{
 #habilidades {
       grid-area: f;
 }
-#contacto {
+#info {
       grid-area: g;
+}
+#contacto {
+      grid-area: h;
 }
 
 
