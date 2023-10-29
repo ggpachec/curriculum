@@ -10,22 +10,35 @@ body{
 
       /* Filas y columnas */
       grid-template: 
-            "a a a" 40px
-            "b c c" 40px
-            "b c c" 40px 
-		"d d d" 40px / 1fr 1fr 1fr;
+            "a a a" 20px
+            "b c c" 50px
+            "b d d" 50px 
+            "b e e" 80px 
+            "b f f" 50px 
+	    "g g g" 80px / 1fr 1fr 1fr;
 }
 header{
-      grid-area: a;
+	grid-area: a;
+	background-color: #7497; 
 }
 nav{
-      grid-area: b;
+	grid-area: b;
+	margin-right-color: green;
 }
-#informacion-personal,#educacion,#proyectos,#habilidades {
+#informacion-personal{
       grid-area: c;
 }
-#contacto {
+#educacion{
       grid-area: d;
+}
+#proyectos{
+      grid-area: e;
+}
+#habilidades {
+      grid-area: f;
+}
+#contacto {
+      grid-area: g;
 }
 
 
