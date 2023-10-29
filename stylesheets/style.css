@@ -1,4 +1,4 @@
-.body{
+body{
       /* Modo de colocar los elementos internos en una rejilla */
       display: grid; 
 
@@ -9,6 +9,23 @@
       column-gap: 0.5rem; 
 
       /* Filas y columnas */
-      grid-template: 1fr 1fr/ 1fr 1fr 1fr;
-  
+      grid-template: 
+            "a a a" 40px
+            "b c c" 40px
+            "b c c" 40px 
+		"d d d" 40px / 1fr 1fr 1fr;
 }
+header{
+      grid-area: a;
+}
+nav{
+      grid-area: b;
+}
+#informacion-personal,#educacion,#proyectos,#habilidades {
+      grid-area: c;
+}
+#contacto {
+      grid-area: d;
+}
+
+
