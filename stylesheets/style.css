@@ -1,3 +1,14 @@
-.{
+.body{
+      /* Modo de colocar los elementos internos en una rejilla */
+      display: grid; 
+
+      /* Separación entre filas */
+      row-gap: 0.5rem; 
+
+      /* Separación entre columnas */
+      column-gap: 0.5rem; 
+
+      /* Filas y columnas */
+      grid-template: 1fr 1fr/ 1fr 1fr 1fr;
   
 }
