@@ -16,15 +16,16 @@ body{
             "b e e" 
             "b e e" 
             "b f f"  
-	    "g h h" / 1fr 1fr 1fr;
+	    "g h h" 
+	    "i i i" / 1fr 1fr 1fr;
 }
 header{
 	grid-area: a;
 	background-color: #7497; 
+	
 }
 nav{
 	grid-area: b;
-	margin-right-color: green;
 }
 #informacion-personal{
       grid-area: c;
@@ -43,6 +44,9 @@ nav{
 }
 #contacto {
       grid-area: h;
+}
+footer{
+	grid-area:i;
 }
 
 
